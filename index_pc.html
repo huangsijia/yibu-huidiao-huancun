@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>嗨翻双十一，壕礼享不停</title>
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/public.css">
+    <script type="text/javascript" src="../../js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/awardRotate.js"></script>
+    <script type="text/javascript" src="js/lanren.js"></script>
+    <script type="text/javascript" src="js/turntable.js"></script>
+    <script type="text/javascript" src="js/layer/layer.js"></script>
+</head>
+
+<body>
+    {activity}
+    <div class="wrapper">
+        <div class="page pcPage">
+            <div class="banner">
+                <img src="images/banner.jpg" alt="嗨翻双十一，壕礼享不停" />
+            </div>
+            <div class="partOne part">
+                <h2 class="title">幸运大转盘 玩转双11</h2>
+                <p class="info">现金投资120天-179天标的金额满20000元，即可获得
+                    <br />一次抽奖机会，百分百中奖。</p>
+                <div class="isIe">
+                    <div class="reserve">
+                        <img src="images/erweima.png" alt="备用转盘">
+                        <p class="red">当前浏览器版本太低 请扫二维码参加活动 </p>
+                    </div>
+                    <div class="offen">
+                        <div class="turn">
+                            <div class="dish">
+                                <div class="turnplate">
+                                    <div class="realCanvas">
+                                        <canvas class="item" id="wheelcanvas"></canvas>
+                                        <a href="javascript:;" class="pointer">
+                                            <img src="images/turnplate-pointer.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="javascript:void(0)" class="address btn">填写收货地址</a>
+                    </div>
+                </div>
+            </div>
+            <div class="partTwo part">
+                <h2 class="title">投资满额即送iPhoneX</h2>
+                <p class="info">现金投资满指定金额即送相应奖品</p>
+                <div class="clearfix">
+                    <table cellspacing="0" cellpadding="0" class="sortOne fl">
+                        <thead>
+                            <tr>
+                                <th>投资期限</th>
+                                <th>类别</th>
+                                <th>投资金额</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="odd">
+                                <td>180</td>
+                                <td>小米手环</td>
+                                <td>10000</td>
+                            </tr>
+                            <tr class="even">
+                                <td>180</td>
+                                <td>体验金50万</td>
+                                <td>30000</td>
+                            </tr>
+                            <tr class="odd">
+                                <td>180</td>
+                                <td>kindle</td>
+                                <td>50000</td>
+                            </tr>
+                            <tr class="even">
+                                <td>180</td>
+                                <td>refa按摩仪</td>
+                                <td>85000</td>
+                            </tr>
+                            <tr class="odd">
+                                <td>180</td>
+                                <td>戴森吸尘器</td>
+                                <td>150000</td>
+                            </tr>
+                            <tr class="even">
+                                <td>180</td>
+                                <td>小米mix2</td>
+                                <td>175000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table cellspacing="0" cellpadding="0" class="sortTwo fr">
+                        <thead>
+                            <tr>
+                                <th>投资期限</th>
+                                <th>类别</th>
+                                <th>投资金额</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="odd">
+                                <td>360天</td>
+                                <td>京东卡5000元</td>
+                                <td>125000</td>
+                            </tr>
+                            <tr class="even">
+                                <td>360天</td>
+                                <td>iPhone8*64G</td>
+                                <td>150000</td>
+                            </tr>
+                            <tr class="odd">
+                                <td>360天</td>
+                                <td>iPhone8*256G</td>
+                                <td>180000</td>
+                            </tr>
+                            <tr class="even">
+                                <td>360天</td>
+                                <td>iPhone8p*64G</td>
+                                <td>170000</td>
+                            </tr>
+                            <tr class="odd">
+                                <td>360天</td>
+                                <td>iPhone8p*256G</td>
+                                <td>200000</td>
+                            </tr>
+                            <tr class="even">
+                                <td>360天</td>
+                                <td>iPhoneX*64G</td>
+                                <td>220000</td>
+                            </tr>
+                            <tr class="odd">
+                                <td>360天</td>
+                                <td>iPhoneX*256G</td>
+                                <td>240000</td>
+                            </tr>
+                            <tr class="even">
+                                <td>360天</td>
+                                <td>金条20g</td>
+                                <td>170000</td>
+                            </tr>
+                            <tr class="odd">
+                                <td>360天</td>
+                                <td>MacBook</td>
+                                <td>310000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <a class="invest-btn btn" href="/lc/invest/list.html" target="_blank">去投资</a>
+            </div>
+            <div class="partThree part">
+                <h3>
+                    <span>活动规则</span>
+                </h3>
+                <ul>
+                    <li>本活动所有宝象金融注册用户均可参加，不与其他活动同时享受奖励；</li>
+                    <li>第一重活动仅限投资指定标的参与，单笔投资每满两万元可以获得一次抽奖机会，若投资4万5千元，可获得两次抽奖机会，以此类推，该标的不可使用红包，不可债转及个人消费贷；</li>
+                    <li>第二重活动仅限投资【双11专享】活动标的(不可使用红包及加息券)参与，累计投资金额达标即可获赠相应奖品，多投多得。</li>
+                    <li>本活动所获得奖品（包含实物奖品，卡券类，话费等）将统一在活动结束后30日内发货，所有奖品颜色均随机发送，考虑到双十一物流压力，奖品到货时间将根据物流情况决定；</li>
+                    <li>实物奖品均不提供发票，如遇到商品缺货等问题，客服将与您沟通协商换取同等价值奖品；</li>
+                    <li>用户投资后请在活动页面点击“填写收货地址”完善收货信息，活动结束后平台将统一拉取，若活动期间内结束用户不填写收货地址，视为自动放弃；</li>
+                    <li>对本次活动如有任何疑问请咨询宝象金融客服电话：
+                        <a href="tel:400-885-1100">400-885-1100</a>。</li>
+                </ul>
+            </div>
+            <div class="tip">
+                市场有风险，投资需谨慎
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/public.js"></script>
+
+<div style="display:none">
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var s = document.getElementsByTagName("script")[0];
+            //百度统计
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?9d8516b072af1baf608b889209361cbe";
+            s.parentNode.insertBefore(hm, s);
+            //友盟统计
+            var ym = document.createElement("script");
+            ym.src = "//s4.cnzz.com/z_stat.php?id=1258672745";
+            s.parentNode.insertBefore(ym, s);
+        })();
+    </script>
+</div>
+
+</html>
